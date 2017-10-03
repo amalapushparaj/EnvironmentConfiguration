@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parameters>
+  <!-- <parameter name="floodre_certificate_name" description="floodre_certificate_name" defaultvalue="#{FloodreCertificateName}#" tags=""> -->
+  <parameter name="floodre_certificate_name" description="floodre_certificate_name" defaultvalue="#{floodre_certificate_name}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='floodre_certificate_name']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='floodre_certificate_name']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="floodre_certificate_password" description="floodre_certificate_password" defaultvalue="#{FloodreCertificatePassword}#" tags=""> -->
+  <parameter name="floodre_certificate_password" description="floodre_certificate_password" defaultvalue="#{floodre_certificate_password}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='floodre_certificate_password']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='floodre_certificate_password']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="iil.channel" description="iil.channel" defaultvalue="#{IilChannel}#" tags=""> -->
+  <parameter name="iil.channel" description="iil.channel" defaultvalue="#{iil.channel}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='iil.channel']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='iil.channel']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="iil.household.eventtype" description="iil.household.eventtype" defaultvalue="#{IilHouseholdEventtype}#" tags=""> -->
+  <parameter name="iil.household.eventtype" description="iil.household.eventtype" defaultvalue="#{iil.household.eventtype}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='iil.household.eventtype']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='iil.household.eventtype']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="iil.household.password" description="iil.household.password" defaultvalue="#{IilHouseholdPassword}#" tags=""> -->
+  <parameter name="iil.household.password" description="iil.household.password" defaultvalue="#{iil.household.password}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='iil.household.password']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='iil.household.password']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="iil.household.type" description="iil.household.type" defaultvalue="#{IilHouseholdType}#" tags=""> -->
+  <parameter name="iil.household.type" description="iil.household.type" defaultvalue="#{iil.household.type}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='iil.household.type']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='iil.household.type']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="iil.household.username" description="iil.household.username" defaultvalue="#{IilHouseholdUsername}#" tags=""> -->
+  <parameter name="iil.household.username" description="iil.household.username" defaultvalue="#{iil.household.username}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='iil.household.username']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='iil.household.username']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="iil.url" description="iil.url" defaultvalue="#{IilUrl}#" tags=""> -->
+  <parameter name="iil.url" description="iil.url" defaultvalue="#{iil.url}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='iil.url']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='iil.url']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="iil_expect100continue" description="iil_expect100continue" defaultvalue="#{IilExpect100continue}#" tags=""> -->
+  <parameter name="iil_expect100continue" description="iil_expect100continue" defaultvalue="#{iil_expect100continue}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='iil_expect100continue']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='iil_expect100continue']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="iil_keepalive" description="iil_keepalive" defaultvalue="#{IilKeepalive}#" tags=""> -->
+  <parameter name="iil_keepalive" description="iil_keepalive" defaultvalue="#{iil_keepalive}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='iil_keepalive']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='iil_keepalive']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="ssp_floodre_url" description="ssp_floodre_url" defaultvalue="#{SspFloodreUrl}#" tags=""> -->
+  <parameter name="ssp_floodre_url" description="ssp_floodre_url" defaultvalue="#{ssp_floodre_url}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='ssp_floodre_url']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='ssp_floodre_url']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="ssp_hh_engine_hostname" description="ssp_hh_engine_hostname" defaultvalue="#{SspHhEngineHostname}#" tags=""> -->
+  <parameter name="ssp_hh_engine_hostname" description="ssp_hh_engine_hostname" defaultvalue="#{ssp_hh_engine_hostname}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='ssp_hh_engine_hostname']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='ssp_hh_engine_hostname']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="ssp_hh_engine_port" description="ssp_hh_engine_port" defaultvalue="#{SspHhEnginePort}#" tags=""> -->
+  <parameter name="ssp_hh_engine_port" description="ssp_hh_engine_port" defaultvalue="#{ssp_hh_engine_port}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='ssp_hh_engine_port']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='ssp_hh_engine_port']/@value">-->
+    </parameterentry>
+  </parameter>
+  <!-- <parameter name="standard.clickthrough.url" description="standard.clickthrough.url" defaultvalue="#{StandardClickthroughUrl}#" tags=""> -->
+  <parameter name="standard.clickthrough.url" description="standard.clickthrough.url" defaultvalue="#{standard.clickthrough.url}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='standard.clickthrough.url']/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='standard.clickthrough.url']/@value">-->
+    </parameterentry>
+  </parameter>
+
+  <parameter name="Demo" description="Demo" defaultvalue="#{Demo}#" tags="">
+    <parameterentry kind="XmlFile" scope="\\web.config$" match="/configuration/appSettings/add[@key='Demo]/@value">
+      <!--<parameterentry kind="XmlFile" scope="obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/appSettings/add[@key='Demo']/@value">-->
+    </parameterentry>
+  </parameter>
+
+</parameters>
